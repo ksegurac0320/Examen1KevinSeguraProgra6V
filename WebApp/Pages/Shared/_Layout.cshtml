@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <base href="/" />
-    <title>@ViewData["Title"] - Examen1</title>
+    <title>@ViewData["Title"] - WebApp</title>
     @await Html.PartialAsync("_HeaderPartial")
 
 </head>
@@ -32,8 +32,6 @@
             </div>
         </div>
     </nav>
-
-
     @RenderBody()
     @await Html.PartialAsync("_ScriptsPartial")
     @await RenderSectionAsync("Scripts", required: false)
